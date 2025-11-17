@@ -1,3 +1,157 @@
-.header a.logo { 
-   font-size: 250px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    background: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+/* Left Title */
+.left h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Center Navigation */
+.center-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.center-nav a:hover {
+    color: #00bfff;
+}
+
+/* Right Section */
+.right .btn {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.right .btn:hover {
+    background: white;
+    color: #1e1e1e;
+}
+
+.signup {
+    border-color: #00bfff;
+}
+
+.signup:hover {
+    background: #00bfff;
+    color: white;
+}
+/* Main container: 2 columns */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Left Column */
+.left-column {
+    padding: 20px;
+}
+
+.main-header {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #1e1e1e;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* Icon */
+.icon-box {
+    font-size: 50px;
+    color: #00bfff;
+}
+
+/* Right Column (Hero Image) */
+.hero-image {
+    width: 100%;
+    height: 350px;
+    background: #ddd;
+    border-radius: 10px;
+
+    /* Replace this when you add your image */
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+/* Main container: 2 columns */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* 2 Column Layout */
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* LEFT COLUMN */
+.left-content .header-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.left-content .subtext {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.icon-box {
+    font-size: 50px;
+    color: #00bfff;
+}
+
+/* RIGHT COLUMN (Hero Image) */
+.hero-image {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+    background: #dcdcdc; /* Placeholder gray */
+    
+    /* Replace image by adding your own URL below */
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
 }
